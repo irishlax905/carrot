@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1200px" height="1200px" viewBox="0 0 1200 1200" enable-background="new 0 0 1200 1200" xml:space="preserve">
+<linearGradient id="SVGID_1_" gradientUnits="userSpaceOnUse" x1="306.1016" y1="1436.0303" x2="306.101" y2="2892.499" gradientTransform="matrix(1 0 0 -1 298 2889.5)">
+	<stop  offset="0.4724" style="stop-color:#FBC240"/>
+	<stop  offset="0.5009" style="stop-color:#FABC40"/>
+	<stop  offset="0.7185" style="stop-color:#F69640"/>
+	<stop  offset="0.8925" style="stop-color:#F47E40"/>
+	<stop  offset="1" style="stop-color:#F37540"/>
+</linearGradient>
+<path fill="url(#SVGID_1_)" d="M1200,725.452c0,402.312,227.889,728.018-568.131,728.018C-204.275,1453.47,0,1127.766,0,725.452
+	C0,323.138,278.995-3,619.822-3C960.648-3,1200,323.139,1200,725.452z"/>
+<image overflow="visible" enable-background="new    " width="1200" height="1200" xlink:href="AA3C4998.png"  transform="matrix(1 0 0 1 1304 0)">
+</image>
+<g>
+	<defs>
+		<polygon id="SVGID_2_" points="-205.812,126 239.945,185.107 381.5,313.5 440.966,227.111 477.5,175.5 522.5,129.5 1405.775,126 
+			1405.775,1201.309 -205.812,1201.309 		"/>
+	</defs>
+	<clipPath id="SVGID_3_">
+		<use xlink:href="#SVGID_2_"  overflow="visible"/>
+	</clipPath>
+	<g clip-path="url(#SVGID_3_)">
+		<g>
+			
+				<image overflow="visible" enable-background="new    " width="1276" height="852" xlink:href="AA3C499C.png"  transform="matrix(1.263 0 0 1.2621 -205.8125 126)">
+			</image>
+		</g>
+	</g>
+</g>
+</svg>

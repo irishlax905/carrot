@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>New Release of Xamarin.Forms (Version 4.8): New Features | Carrot Official Blog</title>
+    <meta name="description"
+        content="Carrot is the world’s leading provider software solution, New Release of Xamarin.Forms (Version 4.8): New Features | Carrot Official Blog">
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon_carrot.png">
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/all.min.js"></script>
+
+    <link rel="stylesheet" href="css/monokai.css">
+    <script src="js/rainbow-custom.min.js"></script>
+    <script data-ad-client="ca-pub-6472647659916643" async
+        src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <!-- <link rel="stylesheet" href="css/prism.css">
+    <script src="js/prism.min.js"></script> -->
+    <!-- <script type="text/javascript">
+        // document.addEventListener('DOMContentLoaded', (event) => {
+        //   document.querySelectorAll('pre code').forEach((block) => {
+        //     hljs.highlightBlock(block);
+        //   });
+        // });
+       hljs.initHighlightingOnLoad(block);
+    </script> -->
+
+    <style type="text/css">
+        body,
+        td,
+        th {
+            font-family: Roboto, sans-serif;
+        }
+
+        body {
+            background-color: #F5F5FF;
+        }
+
+        a {
+            font-family: Roboto, sans-serif;
+        }
+
+        a:hover {
+            color: #FF9900;
+        }
+
+        a:link {
+            color: #333333;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="droba-loader">
+        <div class="loader"></div>
+    </div>
+    <!--Preloader-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area home-3">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="header_wrap d-flex justify-content-between align-items-center">
+                                <div class="header_left">
+                                    <div class="logo"> <img src="img/carrot.png" alt="" width="250" height="500">
+                                    </div>
+                                </div>
+                                <div class="header_right d-flex align-items-center">
+                                    <div class="main-menu d-none d-lg-block">
+                                        <nav>
+                                            <ul id="navigation">
+
+                                                <li class="menu-item"><a href="index.html">Home</a></li>
+                                                </li>
+                                                <li class="menu-item"><a href="*">Company<i
+                                                            class="ti-angle-down"></i></a>
+                                                    <ul class="submenu ">
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="about.html">About Carrot</a></li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="whatwedo.html">What We Do</a></li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="whycarrot.html">Why Carrot</a></li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="portfolio.html">Portfolio</a></li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="partners.html">Partners</a></li>
+                                                    </ul>
+                                                </li>
+                                                <li class="menu-item"><a href="*">Services <i
+                                                            class="ti-angle-down"></i></a>
+                                                    <ul class="submenu">
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="creative.html">Creative <i
+                                                                    class="ti-angle-right"></i></a>
+                                                            <ul class="subsubmenu">
+                                                                <li class="subsubmenu-item"><a href="webdesign.html">Web
+                                                                        Design</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="uiuxdesign.html">UI/UX Design</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="packagedesign.html">Package Design</a>
+                                                                </li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="logodesign.html">Logo Design</a></li>
+
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="printdesign.html">Print Design</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="motiondesign.html">Motion Design</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="architecturaldesign.html">Architectural
+                                                                        Design</a></li>
+                                                            </ul>
+                                                        </li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="webecommerce.html">Web & E-Commerce<i
+                                                                    class="ti-angle-right"></i></a>
+                                                            <ul class="subsubmenu">
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="laravel.html">Laravel</a></li>
+                                                                <li class="subsubmenu-item"><a href="php.html">PHP</a>
+                                                                </li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="wordpress.html">WordPress</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="shopify.html">Shopify</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="angular.html">Angular</a></li>
+                                                                <li class="subsubmenu-item"><a href="vue.html">Vue</a>
+                                                                </li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="react.html">React</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="codeigniter.html">CodeIgniter</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="python.html">Python</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="django.html">Django</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="mobileapp.html">Mobile App<i
+                                                                    class="ti-angle-right"></i></a>
+                                                            <ul class="subsubmenu">
+                                                                <li class="subsubmenu-item"><a href="ios.html">iOS</a>
+                                                                </li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="android.html">Android</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="mysql.html">MySQL</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="couchdb.html">CouchDB</a></li>
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="nodejs.html">Node.js</a></li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="software.html">Software<i
+                                                                    class="ti-angle-right"></i></a>
+                                                            <ul class="subsubmenu">
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="cplusplus.html">C++</a></li>
+                                                                <li class="subsubmenu-item"><a href="csharp.html">C#</a>
+                                                                </li>
+                                                                <li class="subsubmenu-item"><a href="net.html">.NET</a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </li>
+                                                        <li class="submenu-item"><a class="submenu-item-link"
+                                                                href="architecture.html">Architecture<i
+                                                                    class="ti-angle-right"></i></a>
+                                                            <ul class="subsubmenu">
+                                                                <li class="subsubmenu-item"><a
+                                                                        href="autocad.html">AutoCAD</a></li>
+                                                                <li class="subsubmenu-item"><a href="maya.html">Maya</a>
+                                                                </li>
+
+                                                            </ul>
+                                                        </li>
+
+
+                                                    </ul>
+
+                                                <li class="menu-item"><a href="review.html">Reviews</a></li>
+                                                <li class="menu-item"><a href="blog-grid.html">Blog</a></li>
+                                                <li class="menu-item"><a href="contact.html">Get Started</a></li>
+                                            </ul>
+                                        </nav>
+                                    </div>
+                                </div>
+
+                                <div class="d-lg-flex d-none">
+                                    <ul class="nav align-self-center">
+
+                                        <li class="nav-item pl-3" style="font-size:25px;"><a
+                                                href="https://www.facebook.com/Carrot-Fullstack-107122894396075/"
+                                                style="color:#3b5998;"><i class="fab fa-facebook"></i></a></li>
+                                        <li class="nav-item pl-3" style="font-size:25px;"><a
+                                                href="https://www.linkedin.com/company/carrot-fullstack/"
+                                                style="color:#0e76a8;"><i class="fab fa-linkedin"></i></a></li>
+                                        <!-- button -->
+                                        <li class="nav-item pl-3">
+                                            <a class="btn header-btn two" href="contact.html">
+                                                Hire Us
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </header>
+    <!-- header-end -->
+
+
+    <!--================ Blog Area =================-->
+    <section class="blog_area single-post-area bg-white section-padding-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 posts-list blog-details-area">
+                    <div class="single-post">
+                        <div class="feature-img">
+                            <img class="img-fluid" src="img/blog/xamarinforms.png" alt="">
+                        </div>
+                        <div class="blog_details">
+                            <h1>New Release of Xamarin.Forms (Version 4.8): New Features</h1>
+                            <ul class="blog-info-link mt-3 mb-4">
+                                <li><a href="#"><i class="far fa-calendar-alt"></i> Aug. 7th 2020</a></li>
+                                <li><a href="#"><i class="fas fa-user-shield"></i> Posted By: Carrot Press</a></li>
+                                <li><a href="#"><i class="fas fa-hourglass"></i> 11 Minute Read</a></li>
+                            </ul><br>
+                            <p class="excert">
+                                Here at Carrot, we love working with colorful, cross-platform UI’s, as evident as it is
+                                in our portfolio. When we heard about Xamarin.Forms (version 4.8) releasing today, we
+                                were too excited to not, <i>not</i>talk about it.</p><br><br>
+                            <h2>What is Xamarin?</h2><br><br>
+
+
+                            <p>To put it bluntly, Xamarin is an open-source platform for building cross-platform mobile
+                                applications for, you guessed it, iOS and Android, hybrid and of course, Windows (being
+                                that it extends the .NET language). It takes code written in shared platforms and works
+                                with the foundational .NET language to create a cross-platform, hybrid app.</p><br><br>
+                            <p>But not to take that stuff personally, you continue to bear on, looking for that one
+                                special employer to give you a chance, wishing and hoping you’re able to show them that
+                                you have ‘the right stuff’ because, after all, Gus Grissom didn’t take no for an answer
+                                - even when we became all lost and sunk to the bottom of the ocean like the Liberty Bell
+                                7 of a pandemic-related disaster of societal plethoras - in whatever the case may be, we
+                                as a developer society must strive for the valued positions we deserve; even through
+                                difficult times.</p><br><br>
+
+                            <h2>Xamarin.Forms</h2><br><br>
+
+                            <p>Xamarin.Forms gives the opportunity to create interactive cross-platform mobile
+                                applications using a wide span of languages, including C# for software production as its
+                                primary one for Windows. Bringing UI-based design tools to developers that use Xamarin,
+                                Forms 4.8 has a new and improved arsenal of tools; bringing an astounding level of
+                                interactivity to cross-platform iOS, Android, tvOS watchOS, macOS and Windows apps.
+                                Let’s get right into how we can use some of these useful new features in the new release
+                                of Xamarin.Forms 4.8.</p><br><br>
+                            <h2>Drag and Drop is Here!</h2><br><br>
+
+
+                            <p>You heard it right, drag and drop <i>finally</i> available in Xamarin.Forms 4.8! The new
+                                feature allows you to drag objects right into an application, from one location to
+                                another or even, drag an object from one app to another. This is an extremely exciting
+                                step forward for .NET and Xamarin considering it was time consuming for developers to
+                                manually move objects from one location to another, be it a location, application for a
+                                new platform. This has made the lives of <b>Xamarin developers</b> much easier.</p>
+                            <br><br>
+                            <img src="img/blog/DragAndDrop.gif" width="760" height="480"><br>
+                            <small>Credit to Jake Kirsch, Microsoft</small><br><br><br>
+                            <p>Keep in mind, you will have to add a <code>DragGestureRecognizer</code> for anything
+                                you’d like to drag and drop:</p><br><br>
+                            <ul>
+                                <li> 1. Add a <code>DragGestureRecognizer</code> behavior to the object’s
+                                    GestureRecognizers collection found in the toolbar.</li>
+                                <li> 2. Build a data package. <i>With Xamarin.Forms 4.8, the program will automatically
+                                        render and create the data package for you.</i></li>
+                                <li> 3. Enable <code>DragGestureRecognizer.AllowDrop</code> property to True.</li>
+                                <li> 4. If necessary, set the <code>DragGestureRecognizer.DragOver</code> to indicate
+                                    which event should occur when your mouse rolls over the object.</li>
+                                <li> 5. Your object is now draggable to any location or application.</li>
+                            </ul><br><br>
+
+                            <h2>Make Gradients with 4.8</h2><br><br>
+
+                            <p>Xamarin.Forms has now created prototype brushes and gradients for the experimental crowd
+                                of developers. Specifically, the <i>brush</i> tool allows you to select a shape and fill
+                                it with a color or gradient. For now, there are three different types of brushes: fill
+                                (solid colors), gradient (gradients) and radial (radial gradients). Let’s dive into how
+                                we can work with these brushes in the XAML format.</p><br><br>
+
+                            <h4>Solid Color Fill</h4><br><br>
+
+                            <pre><code data-language=""><xmp>
+<Frame  Background="LightGreen"
+        BorderColor="DarkBrown"
+        HasShadow="True"
+        CornerRadius="12"
+        HeightRequest="120"
+        WidthRequest="120" /></xmp></code></pre><br><br>
+
+                            <p>The following XAML creates the solid green fill seen below:</p><br><br>
+
+
+
+
+                            <img src="img/blog/solidbrush_green.png" width="414" height="197"><br><br><br>
+
+                            <h4>Adding a Gradient</h4><br><br>
+
+                            <p>Implementing a gradient is as easy as adding some more code to the snippet above.
+                                Configure the <code>StartPoint</code> and <code>EndPoint</code> properties for your
+                                gradient and you’re off to the races. The beauty of these gradients is they can be a
+                                target for data bindings, allowing for more interactivity. Let’s add the rest of the
+                                XAML code needed to add a gradient to our fill.</p><br><br>
+
+                            <pre><code><xmp>
+<Frame BorderColor="LightGray"
+       HasShadow="True"
+       CornerRadius="12"
+       HeightRequest="120"
+       WidthRequest="120">
+    	<Frame.Background>
+	        <LinearGradientBrush StartPoint="0,0"
+	                             EndPoint="1,0">
+	            <GradientStop Color="Yellow"
+	                          Offset="0.1"/>
+	            <GradientStop Color="Green"
+	                          Offset="1.0"/>
+	        </LinearGradientBrush>
+	    </Frame.Background>
+</Frame></xmp>
+</code></pre>
+                            <br><br>
+
+                            <p>And here is the gradient we have made:</p><br><br>
+                            <img src="img/blog/GradientBrush.png" width="414" height="182"><br><br><br>
+
+                            <h4>Make a Radial Gradient</h4><br><br>
+                            <p>Radial gradients are great alternatives to regular gradients, and can also be bindable,
+                                like the gradients, to your data. The key to radial gradients though, is adding that
+                                center of the gradient by choosing your <code>Center</code> property. You can also mess
+                                around with the size of the radial gradient by changing the <code>Radius</code>
+                                property. Let’s go ahead and change our gradient to a radial gradient.</p><br><br>
+
+                            <pre><code><xmp>             
+<Frame BorderColor="LightGray"
+       HasShadow="True"
+       CornerRadius="12"
+       HeightRequest="120"
+       WidthRequest="120">
+	    <Frame.Background>
+	        <RadialGradientBrush Center="0.5,0.5"
+	                             Radius="0.5">
+	            <GradientStop Color="White"
+	                          Offset="0.1"/>
+	            <GradientStop Color="LightGreen"
+	                          Offset="1.0"/>
+	        </RadialGradientBrush>
+	    </Frame.Background>
+</Frame></xmp></code></pre> <br><br>
+
+
+
+                            <p>And below is the radial gradient we’ve created with this XAML:</p><br><br>
+                            <img src="img/blog/RadialBrush.png" width="414" height="197"><br><br><br>
+
+                            <p>So as you can see, with some simple property configuration and code snippets, you can
+                                have some exceptional color added to your cross-platform application. For more
+                                information on Xamarin.Forms brushes and gradients, visit the <a
+                                    href="https://docs.microsoft.com/en-us/xamarin/xamarin-forms/user-interface/brushes/">Xamarin
+                                    brush and gradient docs</a> at Microsoft.</p><br><br>
+                            <div class="quote-wrapper">
+                                <div class="quotes">
+                                    <span>In need of a hybrid app?</span> <a href="contact.html">Get in Touch</a>.</i>
+                                </div>
+                            </div><br><br>
+
+                            <h2>Let’s Put Those Gradients To Use - Menu Flyouts</h2><br><br>
+                            <p>Time to bring those gradients into live interfaces. A creative and effective way to use
+                                the gradient XAML (and is now supported with 4.8) is to use it as a backdrop for mobile
+                                view menu selection. The cool new feature with Xamarin.Forms is the ability to fade that
+                                gradient in as the end user taps that hamburger icon and opens the mobile view menu
+                                flyout. Let’s take a look at what this actually looks like before and after the menu is
+                                selected.</p><br><br>
+
+                            <img src="img/blog/before.png" width="376" height="694"><br><small>Credit to Jake Kirsch,
+                                Microsoft</small><br><br><br>
+                            <p>Shown above is <b>before</b> the user has the menu selected. </p><br><br>
+
+                            <img src="img/blog/after.png" width="374" height="690"><br><small>Credit to Jake Kirsch,
+                                Microsoft</small><br><br><br>
+                            <p>Shown above is <b>after</b> the user has the menu selected. Can you spot the change? The
+                                gradient has appeared behind the menu. It can be a useful feature for stylized web apps.
+                                Let’s take a look at how we can implement this into our projects:</p>
+                            <ul>
+                                <li> 1. Set the <code>Shell.FlyoutBackdrop</code> property to a Brush.</li><br>
+                                <li> 2. Define if you’d like a Solid fill, Radial or traditional Gradient.</li><br>
+                                <li> 3. Assign the brush to the <code>Shell.FlyoutBackdrop</code> property.</li><br>
+                            </ul><br><br>
+                            <p>Here is what the XAML should look like for the shell:</p><br><br>
+
+                            <pre><code class=""><xmp>
+<Shell >
+        <FlyoutItem >
+          <Shell.FlyoutBackdrop>
+              <LinearGradientBrush StartPoint="0,0"
+                                   EndPoint="1,1">
+                  <GradientStop Color="#8A2387"
+                                Offset="0.1" />
+                  <GradientStop Color="#E94057"
+                                Offset="0.6" />
+                  <GradientStop Color="#F27121"
+                                Offset="1.0" />
+              </LinearGradientBrush>
+          </Shell.FlyoutBackdrop>
+        </FlyoutItem>
+</Shell></xmp></code></pre><br><br>
+
+                            <p>And there you have it. A gradient or fill color that shows up when the user selects the
+                                mobile menu selection, very useful and unique from most other application menus and very
+                                useful for many installations!</p><br><br>
+
+                            <h2>Wrapping Up Forms 4.8</h2><br><br>
+
+                            <p>Xamarin.Forms 4.8 offers a wide variety of integratable features for your cross-platform
+                                application, specifically in the theme of color, shapes and increased interactive
+                                features. For more information about Xamarin.Forms 4.8, visit the .NET, <a
+                                    href="https://dotnet.microsoft.com/apps/xamarin">Xamarin homepage</a> at Microsoft.
+                                Thank you for reading!</p><br><br>
+
+
+
+
+                        </div>
+                    </div>
+
+                    <div class="blog-author">
+                        <div class="media align-items-center">
+                            <img src="img/all-img/carrot_thumb_blog.png" alt="">
+                            <div class="media-body">
+                                <a href="about.html">
+                                    <h4>The Carrot Press</h4>
+                                </a>
+                                <p>The Carrot Press is dedicated to providing the most recent news on app, web and
+                                    software design and development</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="related-post-area">
+                        <h4>Related Posts</h4>
+                        <div class="row">
+                            <!-- Single Blog Area -->
+                            <div class="col-sm-6">
+                                <div class="single-blog-area mb-50">
+                                    <!-- Single Blog Thumb -->
+                                    <div class="blog-thumb"> <a href="blog-details-blog-sept1.html"><img
+                                                src="img/blog/angularspeed.png" alt=""></a>
+                                    </div>
+                                    <!-- Single Blog Content -->
+                                    <div class="single-blog-content">
+                                        <div class="blog-title"><a href="about.html">Growth</a></div>
+
+                                        <a href="blog-details-blog-sept1.html">
+                                            <h5>Speed Up Your Angular Website</h5>
+                                        </a>
+
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a class="post-date" href="#"><i class="fas fa-calendar-alt"></i> Sept. 10
+                                                2015</a>
+                                            <a class="post-author" href="#"><i class="fas fa-user-shield"></i> Posted
+                                                by: Carrot Press</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Single Blog Area -->
+                            <div class="col-sm-6">
+                                <div class="single-blog-area mb-50">
+                                    <!-- Single Blog Thumb -->
+                                    <div class="blog-thumb"> <a href="blog-details-blog-vectorizeart.html"><img
+                                                src="img/blog/vectorize_blog_carrot.png" alt=""></a>
+                                    </div>
+                                    <!-- Single Blog Content -->
+                                    <div class="single-blog-content">
+                                        <div class="blog-title"><a href="#">How To's</a></div>
+
+                                        <a href="blog-details-blog-rebrandcompany.html">
+                                            <h5>How To Vectorize And Color Any Hand Drawn Artwork</h5>
+                                        </a>
+
+                                        <div class="post-meta d-flex justify-content-between">
+                                            <a class="post-date" href="#"><i class="fas fa-user"></i> Jul. 22 2018</a>
+                                            <a class="post-author" href="#"><i class="fas fa-user-shield"></i> Posted
+                                                by: Carrot Press</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="comment-form">
+                        <h4>Get In Touch</h4>
+
+                        <!-- Contact Form -->
+                        <div class="contact_from_area clearfix">
+                            <div class="contact_form">
+                                <form action="mail.php" method="post" id="main_contact_form">
+                                    <div class="contact_input_area">
+                                        <div id="success_fail_info"></div>
+                                        <div class="row">
+                                            <!-- Form Group -->
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control mb-30" name="name" id="name"
+                                                        placeholder="First Name*" required>
+                                                </div>
+                                            </div>
+                                            <!-- Form Group -->
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control mb-30" name="name"
+                                                        id="name-2" placeholder="Last Name*" required>
+                                                </div>
+                                            </div>
+                                            <!-- Form Group -->
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="email" class="form-control mb-30" name="email"
+                                                        id="email" placeholder="E-mail Address*" required>
+                                                </div>
+                                            </div>
+                                            <!-- Form Group -->
+                                            <div class="col-12 col-lg-6">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control mb-30" name="subject"
+                                                        id="subject" placeholder="Phone Number*">
+                                                </div>
+                                            </div>
+                                            <!-- Form Group -->
+                                            <div class="col-12">
+                                                <div class="form-group mb-0">
+                                                    <textarea name="message" class="form-text-area mb-30" id="message"
+                                                        cols="30" rows="6" placeholder="How Can Carrot Help You?*"
+                                                        required></textarea>
+                                                </div>
+                                            </div>
+                                            <!-- Button -->
+                                            <div class="g-recaptcha brochure__form__captcha"
+                                                data-sitekey="6LfKDuQUAAAAAAHI7vioVf2CyYcYpjKGiTRK_Ckm"></div>
+                                            <div class="col-12">
+                                                <button type="submit" class="btn theme-btn-two">Send Message</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4">
+                    <div class="blog_right_sidebar">
+                        <aside class="single_sidebar_widget search-widget">
+                        </aside>
+
+                        <aside class="single_sidebar_widget post_category_widget">
+                            <h4 class="widget_title">Archives</h4>
+                            <ul class="list cat-list">
+                                <li>
+                                    <a href="blog-grid.html">
+                                        <p>January 2020</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.html">
+                                        <p>February 2019</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.html">
+                                        <p>July 2018</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="blog-grid.html">
+                                        <p>August 2016</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </aside>
+
+                        <aside class="single_sidebar_widget tag_cloud_widget">
+                            <h4 class="widget_title">Keywords</h4>
+                            <ul class="list-tag">
+                                <li>
+                                    <a href="#">xamarin</a>
+                                </li>
+                                <li>
+                                    <a href="#">xamarin.forms 4.8</a>
+                                </li>
+                                <li>
+                                    <a href="#">new release xamarin</a>
+                                </li>
+                                <li>
+                                    <a href="#">xamarin drag and drop</a>
+                                </li>
+                                <li>
+                                    <a href="#">xamarin forms brushes</a>
+                                </li>
+                                <li>
+                                    <a href="#">gradients xamarin forms</a>
+                                </li>
+                                <li>
+                                    <a href="#">how to add gradients to menus xamarin</a>
+                                </li>
+
+                                <li>
+                                    <a href="#">microsoft xamarin tutorials</a>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--================ Blog Area end =================-->
+
+    <!-- Footer Contact Area -->
+    <div class="footer-contact-area theme-bg section-padding-100-0">
+        <div class="container">
+            <div class="row justify-content-center">
+                <!-- Footer Widget -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-single-widget mb-50">
+                        <div class="footer-logo">
+                            <a href="index.html"><img src="img/carrot.png" alt=""></a>
+                        </div>
+                        <p class="mt-30">Carrot guarantees 100% customer satisfaction, maintenance and update packages
+                        </p>
+                        <!-- Contact Icon -->
+                        <div class="footer-contact-icon">
+                            <a href="https://www.facebook.com/Carrot-Fullstack-107122894396075/" title="facebook"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.linkedin.com/company/carrot-fullstack/" title="facebook"><i
+                                    class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Footer Widget -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-single-widget mb-50">
+                        <h4>About Us</h4>
+                        <ul>
+                            <li><a href="about.html">About Carrot</a></li>
+                            <li><a href="whatwedo.html">What We Do</a></li>
+                            <li><a href="whycarrot.html">Why Carrot</a></li>
+                            <li><a href="portfolio.html">Portfolio</a></li>
+                            <li><a href="partners.html">Partners</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Widget -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-single-widget mb-50">
+                        <h4>Services</h4>
+                        <ul>
+                            <li><a href="creative.html">Creative</a></li>
+                            <li><a href="webecommerce.html">Website & E-Commerce</a></li>
+                            <li><a href="mobileapp.html">Mobile App</a></li>
+                            <li><a href="software.html">Software Development</a></li>
+                            <li><a href="architecture.html">Architecture</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Footer Widget -->
+                <div class="col-sm-6 col-lg-3">
+                    <div class="footer-single-widget mb-50">
+                        <h4>Contact info</h4>
+                        <ul>
+                            <li><i class="ti-location-pin"></i>5305 River Rd N. Ste. B</li>
+                            <li><i class="ti-pin2"></i>Keizer, Oregon</li>
+                            <li><i class="ti-email"></i>support@carrotfullstack.com</li>
+                            <li><i class="ti-mobile"></i>1-866-CARROTS</li>
+                            <li><i class="ti-location-pin"></i>Global Network</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copy Right Area -->
+        <div class="copy-right-area">
+            <div class="container">
+                <div class="row">
+                    <!-- Copy Right Menu -->
+                    <div class="col-md-6">
+                        <div class="copy-right-menu">
+                            <ul>
+                                <li><a href="partners.html">Partners</a></li>
+                                <li><a href="terms.html">Site Map</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- Copy Right Content -->
+                    <div class="col-md-6 text-right mt-sm-cu-30">
+                        <div class="copy-right-content">
+                            <p>Copyright © Carrot 2008-2020</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer Contact Area -->
+
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.animatedheadline.min.js"></script>
+    <script src="js/date-time.js"></script>
+    <script src="js/bundle.js"></script>
+
+    <!-- Custom js-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
